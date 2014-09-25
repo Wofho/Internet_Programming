@@ -5,8 +5,8 @@ public class UpperCase {
 		String result;
 		String input;
 		
-        Scanner inputReader = new Scanner(System.in); 
-        input = inputReader.nextLine();
+		Scanner inputReader = new Scanner(System.in); 
+		input = inputReader.nextLine();
 		result=input.toUpperCase();
 		
 		System.out.println(result);
